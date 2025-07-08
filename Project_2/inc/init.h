@@ -5,10 +5,12 @@
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
 #include "display.h"
-#include "servo.h"
+#include "aht10.h"
+
+#define LED_RED_PIN 13
 
 // inicializa os pinos e o barramento I2C
-void initDisplayI2C();
+void initI2C();
 
 // inicializa todo o sistema: stdio, I2C, display e sensor
 void initializeSystem(void);

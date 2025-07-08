@@ -1,3 +1,6 @@
+#ifndef DISPLAY_H
+#define DISPLAY_H
+
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
@@ -16,3 +19,5 @@ void updateTextLine(const char* text, uint32_t x, uint32_t y, uint32_t scale, ui
 void clearScreen();
 
 extern ssd1306_t display;
+
+#endif  // DISPLAY_Ha

@@ -50,6 +50,7 @@
         "servo.h": "c",
         "pwm.h": "c",
         "clocks.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "aht10.h": "c"
     }
 }
