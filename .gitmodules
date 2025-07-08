@@ -5,3 +5,7 @@
 [submodule "Project_2/lib/pico-ssd1306"]
 	path = Project_2/lib/pico-ssd1306
 	url = https://github.com/daschr/pico-ssd1306.git
+
+[submodule "Project_3/lib/pico-ssd1306"]
+	path = Project_3/lib/pico-ssd1306
+	url = https://github.com/daschr/pico-ssd1306.git
